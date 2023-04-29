@@ -15,5 +15,6 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
-
-
+print()
+for i in range(10):
+    print(i)
