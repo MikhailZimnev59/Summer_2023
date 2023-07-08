@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <title>Customers</title>
+</head>
+<body>
+<H1> Customers </H1>
+<u1>
+{% for m in list %}
+    <ul>
+        <li> # {{m.id}}  ФИО: ({{m.first_name}}/{{m.last_name}}) User:{{m.username}} {{m.email}} </li>
+
+    </ul>
+
+{% endfor %}
+</u1>
+</body>
+</html>

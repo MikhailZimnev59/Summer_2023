@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <title> {{ title }} </title>
+    <link type="text/css" href="{{ url_for('static', filename='css/mystyle.css')}}"  rel="stylesheet" />
+</head>
+<body>
+<H1> The very main page </H1>
+<H2> Главная страница Hello </H2>
+<H3> {{title}} </H3>
+<u1>
+{% for m in menu %}
+<li> {{m}} </li>
+{% endfor %}
+</u1>
+</body>
+</html>
